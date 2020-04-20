@@ -1,0 +1,6 @@
+name: "argus-16"
+version: "1.0.0"
+usage: "Change helm 2 secret to helm 3 "
+description: |-
+  This helps to modify helm secret stored on cluster to compatible with kubernetes 1.16+
+command: "$HELM_PLUGIN_DIR/convert.sh"
